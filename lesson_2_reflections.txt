@@ -1,0 +1,13 @@
+the OS hides files with a period in front of the name like .git and these files can be seen using ls -a  
+
+What happens when you initialize a repository? Why do you need to do it?
+
+A git repository is created. This creates a new repository to store commits and track their changes, along with 
+the necessary metadata.
+
+Use git add to add a commit to your repository. If you accidentally add a file to the staging area, you can remove it using git reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run git reset lesson_2_reflections.txt and the file will be removed from the staging area, but it will still be in your working directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different in that it is not a final recording like that of a created working directory or 
+repository. It serves as an intermediate area to ensure that you  commit exactly what you intend to.
